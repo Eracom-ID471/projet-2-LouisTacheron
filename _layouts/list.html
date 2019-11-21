@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body>
+    <section>{% include header.html %}</section>
+    <section class="hello">
+    {% for films in site.films %}
+    <h1 class="tire_et_plus" >{{ films.ranking }} . {{ films.title }}</h1>
+    <img class="image" src="{{ films.image | relative_url }}"></img>
+    <h2 class="infos">Réalisateur : {{ films.real }}</br>Directeur de la photographie : {{ films.dop }}</br>Producteur : {{ films.production }}</br>Acteur : {{ films.acteur }}</h2>
+    <p class="synopsis">Synopsis : {{ films.synopsis }}</p>
+    <h2 class="bande-annonce"><a href="{{ films.ba }}">Regarder la bande-annonce</a></h2>
+    {% endfor %}
+    </section>
+    <section>{% include footer.html %}</section>
+  </body>
+</html>
