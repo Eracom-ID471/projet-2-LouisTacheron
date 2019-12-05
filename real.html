@@ -1,0 +1,11 @@
+---
+layout: list
+title: "Top 4 des meilleurs Cameras !"
+---
+
+{% for realisateurs in site.realisateurs %}
+<h1 class="tire_et_plus" >{{ realisateurs.ranking }} . {{ realisateurs.title }}</h1>
+<img class="image" src="{{ realisateurs.image | relative_url }}"></img>
+<h2 class="infos">Âge : {{ realisateurs.age }}</br>Origine : {{ realisateurs.origine }}</h2>
+<p class="synopsis">Déscription : {{ realisateurs.description }}</p>
+{% endfor %}

@@ -1,21 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  </head>
+{% include head.html %}
   <body>
   <section>
-    {% include header.html %}
+    <header class="header">
+        <h1 class="titre-header">{{ page.title }}</h1>
+    </header>
   </section>
   <section>
-    <section class="hello">
-    {% for films in site.films %}
-    <h1 class="tire_et_plus" >{{ films.ranking }} . {{ films.title }}</h1>
-    <a href="{{ site.baseurl }}{% link top-5.html %}"><img class="image" src="{{ films.image | relative_url }}"></img></a>
-    {% endfor %}
+    <section class="hello hello-louis">
+    {{ content }}
     </section>
   </section>
   <section>

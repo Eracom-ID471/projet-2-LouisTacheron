@@ -1,0 +1,13 @@
+---
+layout: top-5
+title: "Top 4 des meilleurs Top 4 !"
+---
+
+{% for link in site.nav_links %}
+<ul>
+  <a href="{{ link.link | relative_url }}">
+    <h1>{{ link.name }}</h1>
+    <img src="{{ link.cover_image | relative_url }}">
+  </a>
+</ul>
+{% endfor %}

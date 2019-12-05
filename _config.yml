@@ -6,5 +6,28 @@ collections:
   films:
     output: true
 
+  series:
+    output: true
+
+  cameras:
+    output: true
+
+  realisateurs:
+    output: true
+
 plugins:
   - jekyll-admin
+
+nav_links:
+  - name: Top 4 des meilleurs films
+    link: films.html
+    cover_image: assets/img/dunkerk.jpg
+  - name: Top 4 des meilleurs cameras
+    link: cameras.html
+    cover_image: assets/img/arri-alexa.jpg
+  - name: Top 4 des meilleurs séries
+    link: series.html
+    cover_image: assets/img/maniac.jpg
+  - name: Top 4 des meilleurs réalisateurs
+    link: real.html
+    cover_image: assets/img/del-torro.jpg
