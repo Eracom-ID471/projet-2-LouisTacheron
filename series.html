@@ -1,12 +1,12 @@
 ---
 layout: list
-title: "Top 4 des meilleurs Films !"
+title: "Top 4 des meilleurs Séries !"
 ---
 
-{% for films in site.films %}
-<h1 class="tire_et_plus" >{{ films.ranking }} . {{ films.title }}</h1>
-<img class="image" src="{{ films.image | relative_url }}"></img>
-<h2 class="infos">Réalisateur : {{ films.real }}</br>Directeur de la photographie : {{ films.dop }}</br>Producteur : {{ films.production }}</br>Année : {{ films.annee }}</h2>
-<p class="synopsis">Synopsis : {{ films.synopsis }}</p>
-<h2 class="bande-annonce"><a href="{{ films.ba }}">Regarder la bande-annonce</a></h2>
+{% for series in site.series %}
+<h1 class="tire_et_plus" >{{ series.ranking }} . {{ series.title }}</h1>
+<img class="image" src="{{ series.image | relative_url }}"></img>
+<h2 class="infos">Réalisateur : {{ series.real }}</br>Directeur de la photographie : {{ series.dop }}</br>Producteur : {{ series.production }}</br>Année : {{ series.annee }}</h2>
+<p class="synopsis">Synopsis : {{ series.synopsis }}</p>
+<h2 class="bande-annonce"><a href="{{ series.ba }}">Regarder la bande-annonce</a></h2>
 {% endfor %}

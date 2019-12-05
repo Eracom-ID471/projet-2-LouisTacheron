@@ -1,9 +1,9 @@
 ---
 layout: list
-ranking: 4
-title: Guillomero del torro
-age : 58 ans
-origine : Guadalajara, Mexique
-description: Né à Guadalajara, Guillermo del Toro est élevé par sa grand-mère catholique. À l'âge de 8 ans, il emprunte la caméra Super 8 de son père et réalise ses premiers courts-métrages mettant en scène ses jouets de La Planète des Singes et divers objets qui lui tombent sous la main3. Il étudie à l'Instituto de Ciencias avant de devenir l'élève de Dick Smith, créateur des maquillages de Little Big Man et L'Exorciste notamment. Il travaille comme maquilleur et spécialiste en effets spéciaux pendant environ dix ans, et crée au début des années 1980 sa propre société, baptisée Necropia4. Il produit son premier film en 1985, à l'âge de 21 ans, et cofonde le festival international du film de Guadalajara, dont la première édition a lieu en 1986. À cette époque, il écrit et réalise également plusieurs épisodes pour La hora marcada, une série télévisée se présentant comme une anthologie dans la veine de La Quatrième Dimension et diffusée sur la télévision mexicaine. C'est à cette occasion qu'il rencontre ses confrères Alfonso Cuarón et Emmanuel Lubezki.
-image: "assets/img/del-torro.jpg"
+ranking: 3
+title: Jordan Peele
+age : 40 ans
+origine : New York, USA
+description: Jordan Haworth Peele, né le 21 février 1979 à New York, est un acteur, humoriste, réalisateur, scénariste et producteur américain. Il est notamment connu pour la série télévisée humoristique à sketchs Key & Peele de Comedy Central avec Keegan-Michael Key et ses cinq saisons comme membre de Mad TV (en). Il a aussi joué dans la première saison de la série télévisée Fargo de FX. Il rencontre en 2017 un succès international avec son premier film en tant que réalisateur, Get Out et reçoit même l'Oscar du meilleur scénario original. Jordan est en couple depuis mars 2013 avec l'actrice américaine Chelsea Peretti, connue pour le rôle de Gina Linetti dans Brooklyn Nine-Nine. Ils se sont fiancés en novembre 2015 et se sont mariés en secret quelques mois plus tard, comme l'a révélé Chelsea sur son compte Instagram, le 26 avril 20161. Le couple s'amuse d'ailleurs à entretenir volontairement le flou sur cette union auprès du public2. En septembre 2018, ils accueillent leur premier enfant, Beaumont Gino Peele3.
+image: "assets/img/peele.jpg"
 ---

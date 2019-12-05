@@ -1,6 +1,6 @@
 ---
 layout: list
-ranking: 3
+ranking: 2
 title: Guillomero del torro
 age : 58 ans
 origine : Guadalajara, Mexique
