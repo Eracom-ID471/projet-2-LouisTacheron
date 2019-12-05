@@ -1,8 +1,4 @@
 ---
-layout: list
-title: "Top 5 Films 2019"
+layout: top-5
+title: "Top 5 des meilleurs Top 5 !"
 ---
-
-## Top 5 Films 2019!
-
-C'est un site cool !
